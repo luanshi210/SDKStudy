@@ -1,4 +1,4 @@
-package com.sdk.library.response;
+package com.sdk.library.response.base;
 
 /**
  * Created by zhoujiaqi on 2018/1/24.

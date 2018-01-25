@@ -18,6 +18,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-        SdkContext.set(this);
+        SdkContext.init(this);
     }
 }
