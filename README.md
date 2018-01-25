@@ -115,8 +115,7 @@ public interface UserResponse extends TResponse<UserModel> {
 
 }
 ```
-
-*最后在我们的项目中测试使用
+* 最后在我们的项目中测试使用
 
 ```
 //先再Application中初始化
@@ -155,7 +154,7 @@ public class MyApplication extends Application {
 ```
 
 
-明天继续学习。。。还是不清楚大厂的SDK怎么做的,哎。。。。。。
+* 明天继续学习。。。还是不清楚大厂的SDK怎么做的,哎。。。。。。
 
 
 
