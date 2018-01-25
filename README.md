@@ -83,7 +83,7 @@ public class TransactionHandler implements InvocationHandler {
 
 
 
-* 一个管理类，用来获取代理类的示例
+* 一个管理类，用来获取代理类实例
 ```
 public class Akira {
 
