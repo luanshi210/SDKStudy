@@ -6,5 +6,4 @@ package com.sdk.library.response.base;
 
 public interface TResponse<T> {
     void onResponse(int code, T data);
-
 }
