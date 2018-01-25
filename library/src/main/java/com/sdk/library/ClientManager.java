@@ -11,18 +11,18 @@ import com.sdk.library.service.SdkService;
 
 public class ClientManager {
 
-    private static SdkService mClient;
+    private static SdkService instance;
 
-    public static SdkService getClient() {
-        if (mClient == null) {
+    public static SdkService getInstance() {
+        if (instance == null) {
             synchronized (ClientManager.class) {
-                if (mClient == null) {
+                if (instance == null) {
                     SdkService service = new SdkImpl();
-                    mClient = (SdkService) new TransactionHandler().getInstance(service);
+                    instance = (SdkService) new TransactionHandler().getInstance(service);
                 }
             }
         }
-        return mClient;
+        return instance;
     }
 
 

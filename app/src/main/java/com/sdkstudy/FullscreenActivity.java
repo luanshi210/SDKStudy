@@ -16,7 +16,7 @@ public class FullscreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fullscreen);
 
 
-        ClientManager.getClient().connect("mac", new ConnectResponse() {
+        ClientManager.getInstance().connect("mac", new ConnectResponse() {
             @Override
             public void onResponse(int code, String data) {
                 LogUtils.e(data+"");
@@ -24,7 +24,7 @@ public class FullscreenActivity extends AppCompatActivity {
         });
 
 
-        ClientManager.getClient().disconnect("mac", new DisConnectResponse() {
+        ClientManager.getInstance().disconnect("mac", new DisConnectResponse() {
             @Override
             public void onResponse(int code, UserModel data) {
                 LogUtils.e(data.toString()+"");
