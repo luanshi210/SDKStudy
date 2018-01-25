@@ -13,6 +13,4 @@ public interface IAkiraService {
 
     void getUser(UserResponse response);//获取用户信息
 
-
-
 }

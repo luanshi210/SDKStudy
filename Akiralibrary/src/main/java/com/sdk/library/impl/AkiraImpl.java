@@ -13,8 +13,6 @@ import com.sdk.library.service.IAkiraService;
 
 public class AkiraImpl implements IAkiraService {
 
-
-
     @Override
     public void connect(String mac, ConnectResponse response) {
         LogUtils.v(String.format("connect %s", mac));
@@ -30,8 +28,5 @@ public class AkiraImpl implements IAkiraService {
         userModel.setName("仙道彰");
         response.onResponse(0,userModel);
     }
-
-
-
 
 }
