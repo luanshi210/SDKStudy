@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Akiralibrary/library.iml" filepath="$PROJECT_DIR$/Akiralibrary/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Akiralibrary/Akiralibrary.iml" filepath="$PROJECT_DIR$/Akiralibrary/Akiralibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDKStudy.iml" filepath="$PROJECT_DIR$/SDKStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\workplace\SDKStudy\Akiralibrary\library.iml" filepath="D:\workplace\SDKStudy\Akiralibrary\library.iml" />
     </modules>
   </component>
 </project>

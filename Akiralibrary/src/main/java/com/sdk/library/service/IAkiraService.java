@@ -9,8 +9,8 @@ import com.sdk.library.response.UserResponse;
 
 public interface IAkiraService {
 
-    void connect(String mac, ConnectResponse response);//连接
+    void connect(String mac, ConnectResponse response);
 
-    void getUser(UserResponse response);//获取用户信息
+    void getUser(UserResponse response);
 
 }

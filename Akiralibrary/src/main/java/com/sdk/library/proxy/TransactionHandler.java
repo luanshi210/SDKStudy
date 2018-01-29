@@ -24,11 +24,10 @@ public class TransactionHandler implements InvocationHandler {
 
 
 
-    //当通过代理类的对象发起对重写的方法的调用时，都会转为对如下的invoke方法的调用
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args)
             throws Throwable {
-        //method方法的返回值是returnVal
         LogUtils.e("++++++before " + method.getName() + "++++++");
         Object returnVal = method.invoke(target, args);
         LogUtils.e("++++++after " + method.getName() + "++++++");

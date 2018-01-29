@@ -7,7 +7,6 @@ import com.sdk.library.response.UserResponse;
 import com.sdk.library.service.IAkiraService;
 
 /**
- * SDK接口实现类
  * Created by zhoujiaqi on 2018/1/24.
  */
 
@@ -25,7 +24,7 @@ public class AkiraImpl implements IAkiraService {
         UserModel userModel = new UserModel();
         userModel.setAge(10);
         userModel.setUid(10001);
-        userModel.setName("仙道彰");
+        userModel.setName("XianDaoZhang");
         response.onResponse(0,userModel);
     }
 
